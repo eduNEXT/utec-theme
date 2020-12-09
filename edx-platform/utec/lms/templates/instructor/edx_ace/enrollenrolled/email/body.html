@@ -20,9 +20,9 @@
             <p style="color: rgba(0,0,0,.75);">
                 Has sido inscripto por invitación en el curso “{{ course_name }}”. El curso estará visible una vez que accedas, en el panel principal de la plataforma EDU con tu usuario.
                 <br />
+                Para ver los materiales del curso haz
             </p>
 
-            Para ver los materiales del curso haz 
             {% trans "click aquí." as course_cta_text %}
             {% include "ace_common/edx_ace/common/return_to_course_cta.html" with course_cta_text=course_cta_text course_cta_url=course_url %}
 
@@ -33,6 +33,7 @@
 
             <p style="color: rgba(0,0,0,.75);">
                 ¡Saludos!.
+                <br />
                 Equipo UTEC.
                 <br />
             </p>
